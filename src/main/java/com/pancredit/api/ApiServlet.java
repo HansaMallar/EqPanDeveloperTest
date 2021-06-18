@@ -52,7 +52,7 @@ public class ApiServlet extends HttpServlet {
 		System.out.println("In Put");
 		boolean success = addApplication(request);
 		if (!success) {
-			response.sendError(HttpServletResponse.SC_NOT_FOUND);
+			response.sendError(HttpServletResponse.SC_CONFLICT);
 			return;
 		}
 
