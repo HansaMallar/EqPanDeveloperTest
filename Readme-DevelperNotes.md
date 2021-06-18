@@ -1,12 +1,13 @@
 # Developer Notes #
 
 
-Development/Execution requisites: Java 1.8+, Maven, Tomcat v9.0, Eclipse 
+
+tools/technologies: Java 1.8+, Maven, Tomcat v9.0, Eclipse 
 
 
 Sample Run (using Curl)
 
-## GET Request via CURL ##
+## GET Request ##
 
 curl http://localhost:8080/EqPancreditDeveloperTest/ApiServlet | json_pp
 
